@@ -21,8 +21,8 @@ row_index = 0
 while row_index < src.count && row_index % 2 == 0 do
   element_index = 0
   while element_index < src[row_index].count && element_index % 2 == 0 do
-    print src [row_index][element_index]
-    
+    p src [row_index][element_index]
+
   element_index += 1
 
   end
