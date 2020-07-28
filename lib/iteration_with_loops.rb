@@ -21,7 +21,7 @@ row_index = 0
 while row_index < scr.count do
   element_index = 0
   while element_index < src[row_index].count do
-    p scr [row_index]element_index
+    p scr [row_index][element_index]
   element_index += 1
 
   end
